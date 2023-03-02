@@ -13,10 +13,12 @@
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.3",
-    "react-native-web": "0.18.12"
+    "react-native-web": "0.18.12",
+    "react-router-native": "^6.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@expo/webpack-config": "^18.0.1",
     "babel-eslint": "^10.1.0",
     "e": "^0.2.32",
     "eslint-config-standard": "^17.0.0",
@@ -36,7 +38,7 @@
       "standard-react"
     ],
     "rules": {
-      "react/prop-types":"off"
+      "react/prop-types": "off"
     }
   }
 }
